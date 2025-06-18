@@ -25,7 +25,6 @@ endif
 override_dh_auto_install:
 	$(MAKE) install PREFIX=debian/anacron MANDIR=debian/anacron/usr/share/man
 	install -D -m 644 debian/anacrontab debian/anacron/etc/anacrontab
-	install -D -m 644 debian/anacron.timer debian/anacron/lib/systemd/system/anacron.timer
 
 override_dh_installcron:
 	dh_installcron
