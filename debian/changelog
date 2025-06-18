@@ -1,3 +1,9 @@
+anacron (2.3-gxde2) UNRELEASED; urgency=medium
+
+  * Repair install problem in debootstrap+chroot environment
+
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 18 Jun 2025 22:30:47 +0800
+
 anacron (2.3-deepin1) unstable; urgency=medium
 
   * Rebuild
